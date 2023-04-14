@@ -54,7 +54,7 @@ body{
 /* FINE HEADER */
 
 /* INIZIO MAIN */
-/* FIRST SECTION BLU container rosa */
+/* CONTAINER TITOLO */
 .conteiner-titolo{
     width: 100%;
     color: white;
@@ -72,16 +72,17 @@ body{
     width: 65%;
 }
 
+.col{
+    text-align: center;
+}
 
 h1{
     margin: 100px 0 30px 0;
-    text-align: center;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .subtitle{
     margin-bottom: 50px;
-    text-align: center;
     line-height: 1.5;
     font-size: 17px;
 }
@@ -106,13 +107,11 @@ h1{
     background-color: #23272A;
     color: white;
 }
-/* FINE FIRST SECTION BLU container rosa */
+/* FINE CONTAINER TITOLO */
 
-/* second SECTION BLU  */
-.conteiner-bicolor{
-    height: 500px;
-    padding-top: 70px;
-    display: flex;
+/* INIZIO CONTAINER ITEMS */
+.conteiner-item{
+    margin: 200px 0;
 }
 
 .row-due{
@@ -123,23 +122,27 @@ h1{
 }
 
 .col-due {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    height: 350px;
-    border: 1px dashed black;
+}
+.img-item{
+    width: 90%;
 }
 .left{
     width: 65%;
-    background-color: rgba(8, 57, 148, 0.735);
 }
 
 .right{
     width: 35%;
-    background-color: rgb(223, 96, 218);
+    padding: 30px;
+    margin-left: 40px;
 }
-/* FINE second SECTION BLU  */
+
+h2{
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+/* FINE CONTAINER ITEMS*/
 .grey{
     background-color: gray;
 }
