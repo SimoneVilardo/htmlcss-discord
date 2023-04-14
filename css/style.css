@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'ggsans', sans-serif;
+}
+
 /* INIZIO HEADER */
 .conteiner-header{
-    background-color: lightblue;
-    height: 80px;
+    background-color: #3161E0;
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: white;
 }
 
 .row-header{
@@ -19,52 +23,88 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: goldenrod;
+   padding: 30px 0;
 }
 
 
 .content-20 {
-    border: 1px dashed black;
-    width: 20%;
-    height: 100%;
+    width: 8%;
     padding: 5px;
 }
 .content-60{
-    border: 1px dashed black;
-    width: 60%;
-    height: 100%;
+    width: 80%;
     text-align: center;
     padding: 5px;
 }
 
 #login{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.span-logo{
+    margin: 0 15px;
 }
 
 /* FINE HEADER */
 
 /* INIZIO MAIN */
 /* FIRST SECTION BLU container rosa */
-.background{
+.conteiner-titolo{
     width: 100%;
-    height: 500px;
+    color: white;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.first-shared{
     display: flex;
     justify-content: center;
     justify-self: center;
 }
 
-.blu{
-    background-color: blue;
-    padding-top: 70px;
+.row , .col{
+    width: 65%;
 }
 
-.conteiner-pink{
-    width: 50%;
-    height: 350px;
-    background-color: rgba(255, 192, 229, 0.84);
-    border: 1px dashed black;
-    margin: 0 auto;
+
+h1{
+    margin: 100px 0 30px 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.subtitle{
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.col-bottoni{
+    width: 100%;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.bottone{
+    border-radius: 30px;
+    padding:15px 30px;
+    text-decoration: none;
+    margin: 100px 20px;
+}
+.mac{
+    background-color: white;
+    color: black;
+}
+.discord{
+    background-color: #23272A;
+    color: white;
 }
 /* FINE FIRST SECTION BLU container rosa */
 
