@@ -281,8 +281,8 @@ h3{
 /* FINE FOOTER */
 
 /* INIZIO HR */
-hr{
-    color: darkgray;
+#linea-orizontale{
+    border-color:#7289DA;
     width: 70%;
     margin: 0 auto;
 }
