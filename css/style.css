@@ -199,7 +199,7 @@ h2{
 .black{
     background-color: #23272A;
     padding-top: 10px;
-    border-bottom: 2px solid darkgray;
+    /* border-bottom: 2px solid darkgray; */
 }
 
 .footer-left , .footer-right{
@@ -263,18 +263,27 @@ h3{
     padding-bottom: 100px;
 }
 
-.row-footer{
-    width: 70%;
-    margin: 0 auto ;
+.row-footer , .col-footer{
     display: flex;
     align-self: center;
     justify-content: space-between;
 }
+
+.row-footer{
+    width: 70%;
+    margin: 0 auto ;
+}
+
 .col-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width:100%;
 }
 /* FINE PRIMA FASE FOOTER  */
 /* FINE FOOTER */
+
+/* INIZIO HR */
+hr{
+    color: darkgray;
+    width: 70%;
+    margin: 0 auto;
+}
+/* FINE HR */
